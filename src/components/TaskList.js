@@ -50,7 +50,6 @@ export function PureTaskList({ loading, tasks, onPinTask, onArchiveTask }) {
     ...tasks.filter(t => t.state === 'TASK_PINNED'),
     ...tasks.filter(t => t.state !== 'TASK_PINNED'),
   ];
-  console.log(tasksInOrder)
   return (
     <div className="list-items">
       {tasksInOrder.map(task => (
