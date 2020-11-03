@@ -795,7 +795,7 @@ input:-webkit-autofill {
 }
 a {
   transition: all 200ms ease-in;
-  color: #5db9ff;
+  color: #6db9ff;
   cursor: pointer;
   text-decoration: none;
 }
